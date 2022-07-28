@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 18px;
+}
+img {
+    width: 100%;
+    height: 150px;    
+}
+.header {
+    height: 30vh;
+    background-color: cadetblue;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+.nav {
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color: aquamarine;
+}
+.p{
+    margin: 40px 40px 0;
+    font-weight: bold;
+}
+.daftar  {
+    display: flex;
+    width: 94%;
+    margin : 5px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.home  {
+    width: 270px;
+    margin: 10px;
+    text-align: center;
+}
+/* detail.php */
+
+.table{
+    margin: 10px;
+}
+.table .img {
+    padding: 0;
+}
+.table tr td {
+    padding: 7px;
+}
+.table img {
+    height: 200px;
+}
